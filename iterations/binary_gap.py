@@ -13,7 +13,7 @@ def binary_gap(N):
     if N < 1:
         raise ValueError('Only positive numbers allowed')
     if N > maxNum:
-        raise ValueError('Number ust not be greater than ' + str(maxNum))
+        raise ValueError('Number must not be greater than ' + str(maxNum))
 
     binary_string = str(bin(N)[2:])
     count = 0
